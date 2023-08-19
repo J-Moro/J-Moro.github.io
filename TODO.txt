@@ -5,3 +5,8 @@ THINGS TO IMPROVE ON THE WEBSITE
 2. Code homepage in html
 
 3. Improve homepage with CSS
+
+
+NOTES:
+
+<p>This is the </p><a href="https://octopus.do/ilyu6hk23gg">link</a><p> to the visual site map!</p>
