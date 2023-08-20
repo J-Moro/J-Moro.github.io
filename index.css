@@ -13,6 +13,9 @@ header {
     img{
         width: 150px;
         height: 150px;
+        padding:none;
+        margin:none;
+        display:block;
         float: left;
     }
 }

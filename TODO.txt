@@ -1,8 +1,9 @@
 THINGS TO IMPROVE ON THE WEBSITE
 
-1. Add my picture
+1. Align my picture
 2. Add my contacts
 3. Make header fade
+4. change tab icon
 
 
 NOTES:
