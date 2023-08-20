@@ -8,19 +8,17 @@ header {
     color: #fff;
     text-align: center;
     padding: 1rem;
-    height: 350px;
 
-    img{
-        width: 150px;
-        height: 150px;
-        padding:none;
-        margin:none;
-        display:block;
-        float: left;
-    }
+    
+    height: 150px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    float: left;
 }
 main {
-    min-height: calc(100vh - 350px - 100px); /* calc(100vh - headerHeight - footerHeight) */
+    min-height: calc(100vh - 150px - 100px); /* calc(100vh - headerHeight - footerHeight) */
   }
 .container {
     max-width: 800px;
