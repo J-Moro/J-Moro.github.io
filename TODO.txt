@@ -1,10 +1,8 @@
 THINGS TO IMPROVE ON THE WEBSITE
 
-1. Map out the site visually 
-
-2. Code homepage in html
-
-3. Improve homepage with CSS
+1. Add cool footer note
+2. Add my picture
+3. Make header fade
 
 
 NOTES:
