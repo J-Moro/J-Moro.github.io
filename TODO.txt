@@ -1,7 +1,7 @@
 THINGS TO IMPROVE ON THE WEBSITE
 
-1. Add cool footer note
-2. Add my picture
+1. Add my picture
+2. Add my contacts
 3. Make header fade
 
 
