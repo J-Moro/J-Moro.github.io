@@ -6,16 +6,18 @@ body {
 header {
     background-color: #006bb8;
     color: #fff;
-    text-align: center;
     padding: 1rem;
+    height: 150px;
 
-    
-    height: 150px;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 150px 200px;
+    column-gap: 20px;
+    justify-content: left;
 }
-img{
-    width: 150px;
-    height: 150px;
-    float: left;
+.ProfilePicture{
+    max-width: 150px;
+    max-height: 150px;
 }
 main {
     min-height: calc(100vh - 150px - 100px); /* calc(100vh - headerHeight - footerHeight) */
