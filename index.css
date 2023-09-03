@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "Agrandir";
+    src: url("AgrandirFont/Agrandir-Regular.otf") format("opentype");
+}
+
 body {
-    font-family: Arial, sans-serif;
+    background-color: #E7DFD8;
+    font-family: Agrandir, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -7,14 +13,13 @@ body {
 /* ------------------ HEADER ------------------ */
 
 header {
-    background-color: #006bb8;
     color: #000000;
     padding: 1rem;
     height: 150px;
 
     display: grid;
     align-items: center; 
-    grid-template-columns: 150px 170px 1fr 120px 120px 120px 120px 120px;
+    grid-template-columns: 150px 170px 1fr 120px 120px 120px 120px;
     column-gap: 20px;
     justify-content: left;
     text-align: center;
