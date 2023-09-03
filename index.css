@@ -25,12 +25,7 @@ header {
     display: grid;
     align-items: center; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
     text-align: center;
-}
-.profilePicture{
-    max-width: 150px;
-    max-height: 150px;
 }
 
 /* ------------------ MAIN BODY ------------------ */
@@ -38,16 +33,36 @@ header {
 main {
     min-height: calc(100vh - 150px - 50px); /* calc(100vh - headerHeight - footerHeight) */
   }
+
 .container {
-    max-width: 90%;
-    margin: auto;
+    max-width: 95%;
+    margin: 1rem;
     border-style: solid;
     border-width: 2px;
     border-color: #000000;
-    padding: 2rem;
+    padding: 1rem;
+
+    display: grid;
+    align-items: right; 
+    grid-template-columns: 1.5fr 1fr;
+    text-align: left;
 }
-h1, h2 {
-    margin-bottom: 0.5rem;
+
+.info {
+    display: grid;
+    align-items: right; 
+    grid-template-rows: 1fr 1fr;
+    text-align: left;
+}
+
+.name {
+    font-size: larger;
+}
+
+.profilePicture{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
 }
 
 
