@@ -28,6 +28,17 @@ header {
     text-align: center;
 }
 
+/* links */
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: underline;
+}
+
 /* ------------------ MAIN BODY ------------------ */
 
 main {
@@ -52,13 +63,18 @@ main {
 .info {
     display: grid;
     align-items: right; 
-    grid-template-rows: 1fr 0.75fr 40px;
+    grid-template-rows: 1fr 1fr 40px;
     text-align: left;
 }
 
 .name {
     font-size: 40px;
 }
+
+h1.page-header {
+    margin: 10px;
+    padding: 0;
+  }
 
 .description {
     font-size: 20px;
@@ -116,4 +132,14 @@ footer {
     bottom: 0;
     width: 100%;
     height: 50px;
+}
+
+a.footerLink {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.footerLink:hover {
+    text-decoration: underline;
 }
