@@ -52,7 +52,7 @@ main {
 .info {
     display: grid;
     align-items: right; 
-    grid-template-rows: 1fr 0.75fr;
+    grid-template-rows: 1fr 0.75fr 40px;
     text-align: left;
 }
 
@@ -60,11 +60,39 @@ main {
     font-size: 40px;
 }
 
-.description{
+.description {
     font-size: 20px;
 }
 
-.profilePicture{
+.contacts{
+    display: grid;
+    align-items: right; 
+    grid-template-columns: repeat(3, 40px) 1fr;
+    column-gap: 15px;
+}
+
+.whatsapp {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    object-position: top;
+}
+
+.github {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    object-position: top;
+}
+
+.linkedin {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    object-position: top;
+}
+
+.profilePicture {
     width: 100%;
     height: 100%;
     object-fit: scale-down;
