@@ -43,7 +43,7 @@ a:hover {
 
 main {
     min-height: calc(100vh - 150px - 50px); /* calc(100vh - headerHeight - footerHeight) */
-  }
+}
 
 .container {
     max-width: 95%;
@@ -83,38 +83,16 @@ h1.page-header {
 .contacts{
     display: grid;
     align-items: right; 
-    grid-template-columns: repeat(3, 40px) 1fr;
+    grid-template-columns: repeat(4, 40px) 1fr;
     column-gap: 15px;
 }
 
-.whatsapp {
+img {
     width: 100%;
     height: 100%;
     object-fit: scale-down;
     object-position: top;
 }
-
-.github {
-    width: 100%;
-    height: 100%;
-    object-fit: scale-down;
-    object-position: top;
-}
-
-.linkedin {
-    width: 100%;
-    height: 100%;
-    object-fit: scale-down;
-    object-position: top;
-}
-
-.profilePicture {
-    width: 100%;
-    height: 100%;
-    object-fit: scale-down;
-    object-position: top;
-}
-
 
 /* ------------------ FOOTER ------------------ */
 
