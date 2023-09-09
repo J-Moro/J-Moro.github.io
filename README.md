@@ -6,10 +6,10 @@ I'm just getting started in web development, and I think that the best way to le
 
 ## Getting Started
 
-This site was built using [GitHub Pages](https://pages.github.com/). You can access it directly through this [link](https://j-moro.github.io).
+This site was built using [GitHub Pages](https://pages.github.com/). You can access it directly through [j-moro.github.io](https://j-moro.github.io).
 
 There is a PDF version available for download in the homepage. My contact information is also there.
 
 ## Contributing
 
-If you wish to contribute, kindly reach out to me directly.
+If you wish to contribute, kindly reach out to me directly or raise an issue.
