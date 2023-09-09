@@ -1,49 +1,8 @@
-@font-face {
-    font-family: "Agrandir";
-    src: url("../AgrandirFont/Agrandir-Regular.otf") format("opentype");
-}
-@font-face {
-    font-family: "AgrandirBold";
-    src: url("../AgrandirFont/Agrandir-TextBold.otf") format("opentype");
-}
 
-body {
-    background-color: #E7DFD8;
-    font-family: Agrandir, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+@import url("layout.css");
 
-/* ------------------ HEADER ------------------ */
-
-header {
-    font-family: AgrandirBold, sans-serif;
-    color: #000000;
-    padding: 1rem;
-    height: 100px;
-
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    text-align: center;
-}
-
-/* links */
-a {
-    color: #000000;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-    text-decoration: underline;
-}
 
 /* ------------------ MAIN BODY ------------------ */
-
-main {
-    min-height: calc(100vh - 150px - 50px); /* calc(100vh - headerHeight - footerHeight) */
-}
 
 .container {
     max-width: 95%;
@@ -92,32 +51,4 @@ img {
     height: 100%;
     object-fit: scale-down;
     object-position: top;
-}
-
-/* ------------------ FOOTER ------------------ */
-
-footer {
-    background-color: #000;
-    color: #fff;
-    
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr ;
-    column-gap: 20px;
-    justify-content: center;
-    text-align: center;
-
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-}
-
-a.footerLink {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a.footerLink:hover {
-    text-decoration: underline;
 }
