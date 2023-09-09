@@ -10,6 +10,8 @@ This site was built using [GitHub Pages](https://pages.github.com/). You can acc
 
 There is a PDF version available for download in the homepage. My contact information is also there.
 
+To look at the visual website map, visit [octopus.do](https://octopus.do/ilyu6hk23gg)
+
 ## Contributing
 
 If you wish to contribute, kindly reach out to me directly or raise an issue.
